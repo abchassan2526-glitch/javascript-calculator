@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <input type="text" class="display-input" placeholder="0" />
+        <input type="text" class="display-result" />
+      </div>
+
+      <div class="buttons">
+        <button id="action"><span>AC</span></button>
+        <button class="operator bracket"><span>()</span></button>
+        <button class="operator"><span>%</span></button>
+        <button class="operator"><span>&divide;</span></button>
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="operator"><span>&times;</span></button>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="operator"><span>-</span></button>
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="operator"><span>+</span></button>
+        <button class="number">0</button>
+        <button id="dot">.</button>
+        <button class="backspace">
+          <i class="fa-solid fa-delete-left"></i>
+        </button>
+        <button class="operator" id="equals">=</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
